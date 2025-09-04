@@ -75,7 +75,7 @@ interactions for each center`.
 
 `2025-02 (Feb): 10 interactions`
 
-To get this answer, I `loaded the final interactions report, grouped by month and sum of total interactions.
+To get this answer, I `loaded the final interactions report, grouped by month, and summed the total interactions.
 I sorted the interactions from highest -> lowest and reported first result`
 
 ### 3. Which contact center had the longest average phone call duration (total_call_duration)?

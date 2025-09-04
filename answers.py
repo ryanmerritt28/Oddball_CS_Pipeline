@@ -27,7 +27,7 @@ def q1_total_interactions_by_center(report: pd.DataFrame):
 def q2_month_highest_interactions(report: pd.DataFrame):
     """
     Which month (Jan, Feb, or Mar) had the highest total interaction volume?
-    Group by month and sum of total interactions. Sort highest->lowest and report first result
+    Group by month and sum the total interactions. Sort highest->lowest and report first result
     """
     result = (
         report.groupby("month")["total_interactions"]
@@ -46,7 +46,7 @@ def q3_longest_avg_call(report: pd.DataFrame):
         Why might this be the case based on the interactions data?
         What approach would you recommend to measure agent work time more accurately?
 
-    Calculate average call duration, then group by contact center name
+    Group all calls by contact center name, calculate the average call duration, and report the highest value
     """
     report = report.copy()
     report = report.groupby(
