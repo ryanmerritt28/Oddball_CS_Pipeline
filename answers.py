@@ -82,7 +82,7 @@ def run_answers(report_path: str):
     print("- The Boston MA contact center has a number of outliers on the high end of call duration.")
     print("- Most of these have a 5-minute delay between the agent resolution timestamp and the end of the interaction")
     print("- To measure agent work time more accurately, we should use the agent resolution timestamp to calculate the"
-          "duration of the call")
+          " duration of the call")
 
 
 if __name__ == "__main__":

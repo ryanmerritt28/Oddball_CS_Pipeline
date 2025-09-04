@@ -51,4 +51,6 @@ def build_report(data_dir: str, out_dir: str, fmt: str = "csv"):
 
 
 # relative paths of final pipeline output and path to write report just hard-coded
-build_report(data_dir='./output', out_dir='./report')
+
+if __name__ == "__main__":
+    build_report(data_dir='./output', out_dir='./report')
